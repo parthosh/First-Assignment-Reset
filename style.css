@@ -13,8 +13,9 @@ body{
     text-decoration: none;
     padding: 60px 20px;
     border-radius: 10px;
-    color: green;
-    font-weight: 800;
+    color: orangered;
+    font-size: 20px;
+    font-weight: 900;
 
 }
 h1{
@@ -40,7 +41,7 @@ span{
     padding: 10px 20px;
     border-radius: 20px;
     color: white;
-    margin-top: 50px;
+    position: relative; top: 40px;
 }
 .flexible-box{
     display: flex;
@@ -61,4 +62,28 @@ span{
 .mid-background-img{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+}
+.recipe-area{
+    text-align: center;
+}
+.flexible-item{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.recipie-item{
+    box-shadow:5px 10px 15px 3px rgb(161, 172, 163);
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.recipie-item img{
+    width: 100%;
+}
+.recipie-item h3{
+    font-size: bold;
+    
 }
